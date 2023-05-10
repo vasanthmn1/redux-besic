@@ -9,6 +9,7 @@ import Savecart from './components/Savecart'
 function App() {
 
   const { value, total } = useSelector((state) => state.cart)
+
   return (
     <div className="App">
       {
